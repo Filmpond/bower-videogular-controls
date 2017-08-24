@@ -1265,9 +1265,9 @@ angular.module("com.2fdevs.videogular.plugins.controls")
         $templateCache.put("vg-templates/vg-volume-bar",
             '<div class="verticalVolumeBar">\
               <div class="volumeBackground" ng-click="onClickVolume($event)" ng-mousedown="onMouseDownVolume()" ng-mouseup="onMouseUpVolume()" ng-mousemove="onMouseMoveVolume($event)" ng-mouseleave="onMouseLeaveVolume()">\
-                Volume control\
                 <div class="volumeValue"></div>\
                 <div class="volumeClickArea"></div>\
+                <span class="visually-hidden">Volume control</span>\
               </div>\
             </div>');
     }]
