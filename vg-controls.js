@@ -1267,6 +1267,7 @@ angular.module("com.2fdevs.videogular.plugins.controls")
               <div class="volumeBackground" ng-click="onClickVolume($event)" ng-mousedown="onMouseDownVolume()" ng-mouseup="onMouseUpVolume()" ng-mousemove="onMouseMoveVolume($event)" ng-mouseleave="onMouseLeaveVolume()">\
                 <div class="volumeValue"></div>\
                 <div class="volumeClickArea"></div>\
+                <span class="visually-hidden">Volume control</span>\
               </div>\
             </div>');
     }]
